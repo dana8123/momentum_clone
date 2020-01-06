@@ -28,7 +28,10 @@ body {
 }
 
 .form {
-	display: none;
+	width: 70%;
+	height: 20px;
+	border: none;
+	border-bottom: 3px solid white;
 }
 
 .js-toDoList {
