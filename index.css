@@ -2,27 +2,37 @@
 	cursor: pointer;
 }
 body {
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	display: flex;
+	font-family: sans-serif;
 	background-color: #333366;
-
 	color: #ffffff;
 	transition: color 0.5s ease-in-out;
 	-webkit-text-stroke-width: 0.3px;
 	-webkit-text-stroke-color: black;
 }
 
-.main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.js-clock {
+	font-size: 72px;
 }
 
+.greetings {
+	font-size: 40px;
+}
 .clicked {
 	color: #201c1c;
 }
 
-.form,
-.greetings {
+.form {
 	display: none;
+}
+
+.js-toDoList {
+	font-size: 20px;
 }
 
 .showing {
