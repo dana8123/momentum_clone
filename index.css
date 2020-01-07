@@ -27,6 +27,9 @@ body {
 	color: #201c1c;
 }
 
+.form {
+	display: none;
+}
 .todo__write--container,
 .name__write--container {
 	padding: 10px;
