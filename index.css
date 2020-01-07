@@ -27,11 +27,16 @@ body {
 	color: #201c1c;
 }
 
-.form {
-	width: 70%;
+.todo__write--container,
+.name__write--container {
+	padding: 10px;
+	margin: 10px;
+	width: 900px;
 	height: 20px;
 	border: none;
 	border-bottom: 3px solid white;
+	opacity: 0.8;
+	font-size: 20px;
 }
 
 .js-toDoList {
