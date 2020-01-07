@@ -21,7 +21,7 @@ body {
 }
 
 .greetings {
-	font-size: 40px;
+	font-size: 60px;
 }
 .clicked {
 	color: #201c1c;
@@ -67,4 +67,14 @@ body {
 	height: 100%;
 	z-index: -1;
 	animation: fadeIn 0.5s linear;
+}
+
+.js-weather {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.js-toDoList {
+	list-style-type: decimal;
+	font-size: 40px;
 }
